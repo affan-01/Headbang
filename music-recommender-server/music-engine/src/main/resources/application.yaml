@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: music-engine
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: password
+  data:
+    neo4j:
+      database: neo4j
+
+server:
+  port: 8080
